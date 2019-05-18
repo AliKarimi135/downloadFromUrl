@@ -2,5 +2,6 @@
     <string name="app_name">دانلود سریع</string>
     <string name="download">دانلود</string>
     <string name="download1">دانلود</string>
-    <string name="download2">دانلود کمکی</string>
+    <string name="download2">دانلود با سرویس</string>
+    <string name="write_file">این برنامه نیاز به دسترسی به نوشتن در حافظه دارد.</string>
 </resources>
