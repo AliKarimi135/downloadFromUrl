@@ -97,13 +97,13 @@ public class DownloadFile extends AsyncTask<String,String,String> {
             // closing streams
             output.close();
             input.close();
-            return "Downloaded at: " + folder + fileName;
+            return "دانلود در مسیر: " + folder + fileName;
 
         } catch (Exception e) {
             Log.e("Error: ", e.getMessage());
         }
 
-        return "Something went wrong";
+        return "خطا:دانلود نشد";
     }
 
     /**
@@ -122,8 +122,7 @@ public class DownloadFile extends AsyncTask<String,String,String> {
         ((MainActivity)context).hideProgressDialog();
 
         // Display File path after downloading
-        Toast.makeText(context,
-                message, Toast.LENGTH_LONG).show();
+        Toast.makeText(context, message, Toast.LENGTH_LONG).show();
     }
 }
 

@@ -34,5 +34,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnDownload2"
         android:layout_margin="9dp"
+        android:onClick="downloadByService"
         android:text="@string/download2"/>
 </LinearLayout>
